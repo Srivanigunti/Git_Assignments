@@ -1,0 +1,31 @@
+Fats-Forward Merging
+ git init
+ git add file1.txt
+ git status
+ git mv file1.txt newfile.txt
+ git status
+ git commit -m "adds first file"
+ git log
+ git branch
+ git branch newbranch
+ git checkout newbranch
+ git status
+ git add .
+ git commit -m "adds newfile"
+
+ git mv newfile.txt file1.txt
+ git commit -m "Renames the file"
+ git add .
+ git status
+ git reset HEAD file1
+ git commit -am "adds some features"
+ git diff master newbranch
+ git branch
+ git log
+ cd /c/Users/srgunti/Documents/Branch_Assignment
+git log
+ git branch --merged
+$ git branch
+$ git merge newbranch
+$ git checkout master
+ git merge newbranch
